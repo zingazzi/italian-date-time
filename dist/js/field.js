@@ -332,7 +332,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         var _this = this;
 
         this.$nextTick(function () {
-            _this.flatpickr = __WEBPACK_IMPORTED_MODULE_0_flatpickr___default()(_this.$refs.slovenianDatepickerInput, {
+            _this.flatpickr = __WEBPACK_IMPORTED_MODULE_0_flatpickr___default()(_this.$refs.italianDatepickerInput, {
                 enableTime: _this.enableTime,
                 enableSeconds: _this.enableSeconds,
                 onClose: _this.onChange,
@@ -347,14 +347,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
     methods: {
         onChange: function onChange() {
-            this.$emit('change', this.$refs.slovenianDatepickerInput.value);
+            this.$emit('change', this.$refs.italianDatepickerInput.value);
         }
     }
 });
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6ba8a64a\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/js/components/ItalianDateTimePicker.vue":
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8a23c364\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/js/components/ItalianDateTimePicker.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
@@ -362,7 +362,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "\n.\\!cursor-not-allowed[data-v-6ba8a64a]{\n    cursor:not-allowed !important;\n}\n", ""]);
+exports.push([module.i, "\n.\\!cursor-not-allowed[data-v-8a23c364]{\n    cursor:not-allowed !important;\n}\n", ""]);
 
 // exports
 
@@ -12962,7 +12962,7 @@ var render = function() {
           "div",
           { staticClass: "flex items-center" },
           [
-            _c("slovenian-date-time-picker", {
+            _c("italian-date-time-picker", {
               staticClass: "w-full form-control form-input form-input-bordered",
               attrs: {
                 field: _vm.field,
@@ -12990,38 +12990,6 @@ if (false) {
   module.hot.accept()
   if (module.hot.data) {
     require("vue-hot-reload-api")      .rerender("data-v-1a7d739f", module.exports)
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-6ba8a64a\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/js/components/ItalianDateTimePicker.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("input", {
-    ref: "slovenianDatepickerInput",
-    class: { "!cursor-not-allowed": _vm.disabled },
-    attrs: {
-      disabled: _vm.disabled,
-      dusk: _vm.field.attribute,
-      name: _vm.field.name,
-      placeholder: _vm.placeholder,
-      type: "text"
-    },
-    domProps: { value: _vm.value }
-  })
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-6ba8a64a", module.exports)
   }
 }
 
@@ -13061,23 +13029,55 @@ if (false) {
 
 /***/ }),
 
-/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6ba8a64a\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/js/components/ItalianDateTimePicker.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-8a23c364\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/js/components/ItalianDateTimePicker.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("input", {
+    ref: "italianDatepickerInput",
+    class: { "!cursor-not-allowed": _vm.disabled },
+    attrs: {
+      disabled: _vm.disabled,
+      dusk: _vm.field.attribute,
+      name: _vm.field.name,
+      placeholder: _vm.placeholder,
+      type: "text"
+    },
+    domProps: { value: _vm.value }
+  })
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-8a23c364", module.exports)
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8a23c364\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/js/components/ItalianDateTimePicker.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6ba8a64a\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/js/components/ItalianDateTimePicker.vue");
+var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8a23c364\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/js/components/ItalianDateTimePicker.vue");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("2f07b454", content, false, {});
+var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("0cce9cf2", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6ba8a64a\",\"scoped\":true,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./ItalianDateTimePicker.vue", function() {
-     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6ba8a64a\",\"scoped\":true,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./ItalianDateTimePicker.vue");
+   module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8a23c364\",\"scoped\":true,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./ItalianDateTimePicker.vue", function() {
+     var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8a23c364\",\"scoped\":true,\"hasInlineConfig\":true}!../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./ItalianDateTimePicker.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -13630,19 +13630,19 @@ module.exports = Component.exports
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-6ba8a64a\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/js/components/ItalianDateTimePicker.vue")
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8a23c364\",\"scoped\":true,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/js/components/ItalianDateTimePicker.vue")
 }
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
 var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/js/components/ItalianDateTimePicker.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-6ba8a64a\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/js/components/ItalianDateTimePicker.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-8a23c364\",\"hasScoped\":true,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/js/components/ItalianDateTimePicker.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-6ba8a64a"
+var __vue_scopeId__ = "data-v-8a23c364"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
@@ -13662,9 +13662,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6ba8a64a", Component.options)
+    hotAPI.createRecord("data-v-8a23c364", Component.options)
   } else {
-    hotAPI.reload("data-v-6ba8a64a", Component.options)
+    hotAPI.reload("data-v-8a23c364", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -13680,9 +13680,9 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 Nova.booting(function (Vue, router) {
-    Vue.component('index-slovenian-date-time', __webpack_require__("./resources/js/components/Index/DateTimeField.vue"));
-    Vue.component('detail-slovenian-date-time', __webpack_require__("./resources/js/components/Detail/DateTimeField.vue"));
-    Vue.component('form-slovenian-date-time', __webpack_require__("./resources/js/components/Form/DateTimeField.vue"));
+    Vue.component('index-italian-date-time', __webpack_require__("./resources/js/components/Index/DateTimeField.vue"));
+    Vue.component('detail-italian-date-time', __webpack_require__("./resources/js/components/Detail/DateTimeField.vue"));
+    Vue.component('form-italian-date-time', __webpack_require__("./resources/js/components/Form/DateTimeField.vue"));
 });
 
 /***/ }),
