@@ -44,11 +44,11 @@
             },
             enableTime:     {
                 type:    Boolean,
-                default: true,
+                default: false,
             },
             enableSeconds:  {
                 type:    Boolean,
-                default: true,
+                default: false,
             }
         },
 

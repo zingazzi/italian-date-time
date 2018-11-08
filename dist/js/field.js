@@ -315,11 +315,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         },
         enableTime: {
             type: Boolean,
-            default: true
+            default: false
         },
         enableSeconds: {
             type: Boolean,
-            default: true
+            default: false
         }
     },
 
